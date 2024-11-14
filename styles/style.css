@@ -4,6 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--font-main);
   font-size: var(--text-size-regular);
+  background-color: var(--background-primary-color);
   background-image: var(--background-image);
   background-size: cover;
   background-position: center;
@@ -251,6 +252,12 @@ h4.highlighted {
   position: absolute;
   inset-block-end: 10px;
   inset-inline-start: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  .page .header__decoration {
+    display: none;
+  }
 }
 
 @media (768px <= width < 1024px) {
