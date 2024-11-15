@@ -302,7 +302,7 @@
     inline-size: 236px;
   }
 
-  .two-columns {
+  .section.dynamic {
     grid-template-columns: 236px 1fr;
   }
 
@@ -334,11 +334,11 @@
     inline-size: 315px;
   }
 
-  .two-columns {
+  .section.dynamic {
     grid-template-columns: 315px 1fr;
   }
 
-  .three-columns {
+  .articles.dynamic {
     grid-template-columns: repeat(3, 1fr);
   }
 
