@@ -19,8 +19,7 @@
   --background-image: url(../images/cover-image-dark.png);
   --shadow-primary-color: var(--accent-color);
   --shadow-secondary-color: var(--accent-color);
-}
-
-.theme_dark .header__decoration {
-  display: flex;
+  & .header__decoration {
+    display: flex;
+  }
 }

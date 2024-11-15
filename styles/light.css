@@ -19,10 +19,9 @@
   --background-image: url(../images/cover-image-light.png);
   --shadow-primary-color: #ff0070;
   --shadow-secondary-color: var(--background-accent-color);
-}
-
-.theme_light .header__decoration {
-  display: none;
+  & .header__decoration {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,7 +38,7 @@
     --shadow-primary-color: #ff0070;
     --shadow-secondary-color: var(--background-accent-color);
   }
-  .theme_auto .header__decoration {
+  & .header__decoration {
     display: none;
   }
 }
